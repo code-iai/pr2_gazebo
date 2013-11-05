@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>pr2_gazebo</name>
+  <version>0.0.0</version>
+  <description>
+     Package holding world, object, and launch files to simulate the PR2
+     in gazebo.
+  </description>
+
+  <author email="georg.bartels@cs.uni-bremen.de">Georg Bartels</author>
+  <maintainer email="georg.bartels@cs.uni-bremen.de">Georg Bartels</maintainer>
+
+  <license>BSD</license>
+  <url type="website">https://github.com/code-iai/pr2_gazebo</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>pr2_description</run_depend>
+
+</package>
