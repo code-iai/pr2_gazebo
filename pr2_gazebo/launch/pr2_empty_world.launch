@@ -7,6 +7,6 @@
 
   <include file="$(find pr2_gazebo)/launch/upload_pr2.launch"/>
 
-   <include file="$(find pr2_gazebo)/launch/upload_pr2_controllers.launch"/>
+  <include file="$(find pr2_gazebo)/launch/upload_pr2_controllers.launch"/>
  
 </launch>
