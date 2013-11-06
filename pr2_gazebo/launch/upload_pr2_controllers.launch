@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- Loading joint state publisher configurations on parameter server -->
+  <rosparam file="$(find pr2_gazebo)/config/joint_state_publisher.yaml"
+      command="load"/>
+
+  <!-- Spawning the controller plugins into Gazebo -->
+  <!-- Joint state publishing... -->
+  <!--node name="controller_spawner" pkg="controller_manager" type="spawner"
+      respawn="false" output="screen" ns="/pr2" args="joint_state_publisher"/-->
+
+</launch>
