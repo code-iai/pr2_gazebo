@@ -1,4 +1,5 @@
 <launch>
+
   <!-- Starting up the empty gazebo -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <!-- more default parameters can be changed here -->
@@ -6,4 +7,6 @@
 
   <include file="$(find pr2_gazebo)/launch/upload_pr2.launch"/>
 
+   <include file="$(find pr2_gazebo)/launch/upload_pr2_controllers.launch"/>
+ 
 </launch>
